@@ -8,7 +8,7 @@ function generateToken(user) {
   const payload = {
     id: user.id, // 用户唯一标识符
     // 你可以根据需要添加更多字段
-  };
+  }
 
   // 设置 token 过期时间，例如：'2h' 表示两小时后过期
   const options = {
