@@ -8,7 +8,7 @@ app.get('/users/:id', (req, res) => {
   const userId = req.params.id; // 路径参数
   const queryParam = req.query.q; // 查询参数
 
-  res.send(`User ID: ${userId}, Query Param: ${queryParam}`);
+  res.send(`er ID: ${userId}, Query Param: ${queryParam}`);
 });
 
 // 处理 POST 请求，包含路径参数和请求体参数
