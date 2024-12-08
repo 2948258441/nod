@@ -13,7 +13,7 @@ app.get('/users/:id', (req, res) => {
 
   res.send(`er ID: ${userId}, Query Param: ${queryParam}`);
 });
-
+//1
 // 处理 POST 请求，包含路径参数和请求体参数
 app.post('/users/:id', (req, res) => {
   const userId = req.params.id; // 路径参数
